@@ -1,2 +1,2 @@
 # Web-Development
-Comp Sci syllabus
+All coding snippets with comments
