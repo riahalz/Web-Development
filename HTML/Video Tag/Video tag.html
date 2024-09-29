@@ -1,0 +1,73 @@
+<!-- Video Tag -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video Tag</title>
+</head>
+
+<body>
+
+    <!-- Video tag - with name of video file -->
+    <!-- controls - autoplay, muted, loop, preload -->
+    <video controls>
+        <!-- source = "path to your video file" - can be filename/url/embed code -->
+        <!-- type = mp4/ogg/etc. -->
+        <source src = "Name of Video File.mp4" type = "video/mp4"> Your browser does not support the video tag. <!-- Alternate text -->
+    </video>
+
+    <!-- Video - height, width -->
+    <video width = "400", height = "300">
+        <source src = "Name of Video File.ogg" type = "video/ogg"> Your browser does not support the video tag.
+    </video>
+
+    <!-- Video - poster image - image preview before video is played -->
+    <video poster = "poster_image.jpg">
+        <source src = "Name of Video File.mp4" type = "video/mp4"> Your browser does not support the video tag.
+    </video>
+
+    <!-- Video - autoplay -->
+    <video controls autoplay>
+        <source src = "Name of Video File.mp4" type = "video/mp4">
+    </video>
+
+    <!-- Video - play only once -->
+    <video controls loop = 0>
+        <source src = "Name of Video File.mp4" type = "video/mp4">
+    </video>
+
+    <!-- Video - loop infinitely -->
+    <video controls loop = 1>
+        <source src = "Name of Video File.mp4" type = "video/mp4">
+    </video>
+
+    <!-- Video - muted - no volume -->
+    <video controls muted>
+        <source src = "Name of Video File.mp4" type = "video/mp4">
+    </video>
+    
+    <!-- Video - preload = "auto" -->
+    <video controls preload = "auto">
+        <source src = "Name of Video File.mp4" type = "video/mp4">
+    </video>
+
+    <!-- Video - controls = 1, controls displayed -->
+    <video controls = 1>
+        <source src = "Name of Video File.mp4" type = "video/mp4">
+    </video>
+
+    <!-- Video - controls = 0, controls not displayed -->
+    <video controls = 0>
+        <source src = "Name of Video File.mp4" type = "video/mp4">
+    </video>
+
+    <!-- Video - iframe around video -->
+    <iframe width = "420", height = "300" src = "Name Of Video File.mp4" type = "video/mp4">
+    </iframe>
+
+</body>
+
+</html>
