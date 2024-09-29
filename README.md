@@ -1,2 +1,2 @@
 # Web-Development
-All coding snippets with comments
+All code snippets with comments
