@@ -1,0 +1,45 @@
+<!-- CSS in Form - hyperlink, new link, visited link, mouse hover -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Example page</title>
+
+    <style type = "text/css">
+
+        input:hover {background: lightgray; color: red;}
+        input:focus {background: lightblue; color: blue;}
+
+        a.new:link {color:green;}
+        a.new:visited {color: red;}
+        a.new.hover {color: yellow;}
+
+    </style>
+
+</head>
+
+<body>
+
+<form action = " ">
+
+    <label for = "name">Your name:</label>
+    <input class = "hover" type = "text" id = "name" name = "name">
+
+    <p>This is the example of hyperlinks. The two premier education institutes in Bangalore are</p>
+
+    <ol>
+        <li><a class = "new" href = "https://pes.edu/">PES University</a></li>
+        <li><a href = "https://google.com/">20 Things to learn</a></li>
+    </ol>
+
+    <p>Use this to understand how links change before and after visiting the site.</p>
+
+</form>
+
+</body>
+
+</html>
+

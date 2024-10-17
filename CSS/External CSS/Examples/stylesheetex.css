@@ -1,0 +1,20 @@
+h2, h4{
+	border-bottom: 1px solid black;
+}
+h2{
+	color: black;
+	font-family: times new roman;
+}
+h4{
+	color: black;
+	font-family: times new roman;
+}
+p.italic{
+	font-style: italic;
+	color: red;
+}
+h3{
+	color: red;
+	margin-left: 30px;
+	text-decoration: overline;
+}

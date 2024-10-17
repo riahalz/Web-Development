@@ -1,0 +1,15 @@
+body{background-color: yellow}
+h1{
+	font-family: times new roman;
+}
+h2{
+	color: blue;
+	font-family: times new roman;
+}
+p1{
+	margin-left: 50px;
+	font-family: times new roman;
+}
+em{
+	font-style: italic;
+}
