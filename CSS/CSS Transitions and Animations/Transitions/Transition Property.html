@@ -1,0 +1,62 @@
+<!-- transition property -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>transition property</title>
+
+    <style>
+        .transition {
+            background-color: violet;
+            border: 5px solid blue;
+            height: 200px;
+            width: 200px;
+            /* transition */
+            transition: width 2s;
+        }
+        .transition:hover {width: 400px; height: 600px; background: blue;}
+
+        .transition2 {
+            background-color: hotpink;
+            border: 10px solid blue;
+            height: 200px;
+            width: 200px;
+            /* transition */
+            transition: height 2s;
+        }
+
+        .transition2:hover {width: 200px; height: 700px; background: yellow;}
+
+        .transitioncircle {
+            border: 5px outset red;
+            background-color: green;
+            height: 200px;
+            width: 200px;
+            border-radius: 200px;
+            transition: 2s;
+        }
+
+        .transitioncircle:hover {width: 800px; height: 800px; border-radius: 800px; background-color: blue}
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class = "transition"></div>
+
+    <br><br>
+
+    <div class = "transition2"></div>
+
+    <br><br>
+
+    <div class = "transitioncircle"></div>
+
+</body>
+
+</html>

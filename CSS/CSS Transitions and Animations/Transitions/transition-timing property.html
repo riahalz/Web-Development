@@ -1,0 +1,46 @@
+<!-- transition-timing property: linear/ease/ease-in/ease-out/ease-in-out -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>transition-timing property</title>
+
+    <style>
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            transition: 1s;
+        }
+
+        div:hover {width: 350px;}
+
+        #linear {transition-timing-function: linear;}
+        #ease {transition-timing-function: ease;}
+        #easein {transition-timing-function: ease-in;}
+        #easeout {transition-timing-function: ease-out;}
+        #easeinout {transition-timing-function: ease-in-out;}
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id = "linear"></div>
+    <br>
+    <div id = "ease"></div>
+    <br>
+    <div id = "easein"></div>
+    <br>
+    <div id = "easeout"></div>
+    <br>
+    <div id = "easeinout"></div>
+
+</body>
+
+</html>
