@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Minima Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="minimastyles.css"> <!-- External stylesheet link -->
+
+    <style>
+        /* Document-level CSS */
+        body {
+            margin: 0;
+            font-family: 'IBM Plex Mono', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header img {
+            height: 50px;
+            margin-left: 20px;
+        }
+
+        .menu {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .menu a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            font-family: 'IBM Plex Mono';
+        }
+
+        .menu a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .content-section {
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: 'IBM Plex Mono';
+            min-height: 600px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .content-section .content {
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 600px;
+        }
+
+        /* Product grid layout */
+        .products-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .product-box {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            width: 30%;
+        }
+
+        .product-box img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .product-box p {
+            margin: 10px 0;
+            font-family: 'IBM Plex Mono', sans-serif;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 200%;
+            max-width: 600px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            font-family: 'IBM Plex Mono', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="/Users/riyah/Desktop/M.png" alt="Logo">
+        <div class="menu">
+            <div class="dropdown">
+                <a href="products.html">Furniture</a>
+                <div class="dropdown-content">
+                    <a href="something.html">Sofas</a>
+                    <a href="something.html">Beds</a>
+                    <a href="something.html">Lamps</a>
+                </div>
+            </div>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="content-section" style="background-image: url('/Users/riyah/Desktop/livingroom.jpg');">
+        <div class="content">
+            <h1 style="text-decoration: unset; text-shadow: 2px 5px 5px black;">Captivating Minimalist Furniture</h1>
+        </div>
+    </div>
+
+    <div class="content-section" style="background-color: beige;">
+        <div class="content">
+            <h1 style="color: black; text-decoration: unset; text-shadow: 2px 5px 5px violet;">Browse Pieces</h1>
+            <p style="background-color: black;">There are many compelling pieces for you to choose from.</p>
+            <div class="products-grid">
+                <div class="product-box">
+                    <img src="/Users/riyah/Desktop/9.1-Otium-Minimalist-Teak-Wood-Sofa-–-4-Seater.jpg" alt="Product 1">
+                    <p style = "color: black">Minimalist Teak Sofa</p>
+                    <p style = "color: black">Rs. 30,000</p>
+                    <button>Buy</button>
+                </div>
+                <div class="product-box">
+                    <img src="/Users/riyah/Desktop/61r9G8yzTCL._AC_UF1000,1000_QL80_.jpg" alt="Product 2">
+                    <p style = "color: black">Sleek Black Lamp</p>
+                    <p style = "color: black">Rs. 5,000</p>
+                    <button>Buy</button>
+                </div>
+                <div class="product-box">
+                    <img src="/Users/riyah/Desktop/cozy-minimalist-bedroom.png" alt="Product 3">
+                    <p style = "color: black">White mattress and comforter set</p>
+                    <p style = "color: black">Rs. 50,000</p>
+                    <button>Buy</button>
+                </div>
+            </div>
+            <button href="products.html">Browse All</button>
+        </div>
+    </div>
+
+    <div class="content-section" style="background-image: url('/Users/riyah/Desktop/pngtree-sleek-contemporary-residence-and-minimalist-living-space-with-stylish-furniture-interior-image_13815323.png');">
+        <div class="content">
+            <h1 style="text-decoration: unset; text-shadow: 2px 5px 5px black;">Product Reviews and Testimonials</h1>
+            <p style="background-color: black;">Check out product reviews from our trusted and cool customers!</p>
+            <p style="background-color: black;"><i>"I have never sat on a more sturdy sofa which was so stylish!"</i></p>
+            <p style="background-color: black;"><i>"The lamp I bought from Minima has lasted for the past 6 years! The quality is excellent."</i></p>
+            <p style="background-color: black;"><i>"My go-to shop for minimalistic furniture for my new home."</i></p>
+            <button href="testimonials.html">Explore All</button>
+        </div>
+    </div>
+
+    <div class="content-section" id="contact" style="background-image: url('/Users/riyah/Desktop/minimalist-white-living-room-hdz4on1r6mcsmnw3.jpg');">
+        <div class="content">
+            <h1 style="color: black; text-decoration: unset; text-shadow: 2px 5px 5px violet;">Contact Us</h1>
+            <div class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
