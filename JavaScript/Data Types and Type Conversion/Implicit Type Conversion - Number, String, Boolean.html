@@ -1,0 +1,68 @@
+<!-- Implicit Type Conversion -->
+<!-- JavaScript handles type conversion automatically. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Implicit Type Conversion</title>
+</head>
+
+<body>
+
+    <h1>Implicit Conversion to String</h1>
+    <script>
+        /* Implicit conversion to String */
+        let resultstr1 = '3'+2;
+        document.write(resultstr1 + '<br>'); /* Output: 32 */
+
+        resultstr2 = '3'+true;
+        document.write(resultstr2 + '<br>'); /* Output: 32true */
+
+        resultstr3 = '3'+undefined;
+        document.write(resultstr3 + '<br>'); /* Output: 3undefined */
+    </script>
+
+    <h1>Implicit Conversion to Number</h1>
+    <script>
+        /* Implicit conversion to Number */
+        let resultnum1;
+        resultnum1 = '4'-'2';
+        document.write(resultnum1 + '<br>'); /* Output: 2 */
+
+        resultnum2 = '4'/'2';
+        document.write(resultnum2 + '<br>'); /* Output: 2 */
+
+        resultnum3 = '4'*2;
+        document.write(resultnum3 + '<br>') /* Output: 8 */
+
+        let a1 = "10";
+        let b1 = 2;
+        document.write((a1*b1) + '<br>'); /* Output: 20 */
+
+        let a2 = "5";
+        let b2 = 3;
+        document.write((a2-b2) + '<br>'); /* Output: 2 */
+
+        let flag = true;
+        document.write((flag+1) + '<br>') /* Output: 2 */
+    </script>
+
+    <h1>Implicit Boolean Conversion to Number</h1>
+    <script>
+        /* Implicit Boolean conversion to Number */
+        let resultbool1;
+        resultbool1 = '4'-true;
+        document.write(resultbool1 + '<br>'); /* Output: 3 */
+
+        resultbool2 = 4+true;
+        document.write(resultbool2 + '<br>'); /* Output: 5 */
+
+        resultbool3 = 4+false;
+        document.write(resultbool3 + '<br>') /* Output: 4 */
+    </script>
+
+</body>
+
+</html>
+

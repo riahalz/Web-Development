@@ -1,0 +1,35 @@
+<!-- Convert Number to String, Binary, Octal, Hexadecimal -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Convert Number to String, Binary, Octal, Hexadecimal</title>
+</head>
+
+<body>
+	<h2>Convert Number to String, Binary, Octal, Hexadecimal</h2>
+
+	<script type = "text/javascript">
+	    // Define variable - number
+		var num = 125
+
+	    // Convert number to string
+		var strnum = String(num);
+		document.write("string value = " + strnum + "<br>"); // Output: string value = 15
+
+	    // Convert number to binary
+		var strbinary = num.toString(2);
+		document.write("string binary value - ", + strbinary + "<br>"); // Output: string binary value = 1111
+
+	    // Convert number to octal
+		var stroctal = num.toString(8);
+		document.write("string octal value = " + stroctal + "<br>"); // Output: string octal value = 17
+
+	    // Convert number to hexadecimal
+		var strhex = num.toString(16);
+		document.write("string hexadecimal value = " + strhex + "<br>") // Output: string hexadecimal value = f
+	</script>
+</body>
+
+<html>
