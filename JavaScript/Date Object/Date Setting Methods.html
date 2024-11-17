@@ -1,0 +1,36 @@
+<!-- Date Object Methods -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Object Methods</title>
+</head>
+
+<body>
+	<h2>Date Object Methods</h2>
+	<p id="demo"></p>
+	<script>
+		const d = new Date();
+		// setDate - set the date
+		d.setDate(11);
+		// setFullYear - set the year
+		d.setFullYear(2024);
+		// setHours - set the hour
+		d.setHours(22);
+		// setMonth - set the month
+		d.setMonth(11);
+		// setMinutes - set the minute
+		d.setMinutes(31);
+		// setSeconds - set the second
+		d.setSeconds(40);
+		// setMilliseconds - set the month
+		d.setMilliseconds(500);
+		// setTime() - adding milliseconds to January 1, 1970
+		d.setTime(133390876120);
+		document.getElementById("demo").innerHTML = d;
+	</script>
+</body>
+
+</html>

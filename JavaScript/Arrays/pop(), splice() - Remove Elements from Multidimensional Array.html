@@ -1,0 +1,45 @@
+<!-- pop(), splice(), shift() - Remove Elements from Multidimensional Array -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>pop(), splice(), shift() - Remove Elements from Multidimensional Array</title>
+</head>
+
+<body>
+    <h2>pop(), splice(), shift() - Remove Elements from Multidimensional Array</h2>
+    <p id = "demo"></p>
+
+    <script>
+    var array1 = [['a', 'b', 'c'], ['d', 'e', 'f']];
+
+    // pop() - removes last element from array
+    // array_name.pop()
+    array1.pop()
+    document.write(array1) // Output: a,b,c
+
+    document.write('<br>')
+
+    // splice() - removes specific element from array
+    // array.splice(startIndex, deleteCount, item1, item2, ...)
+    /* items: optional - items to be added to the array at the startIndex */
+    array1[0].splice(1, 1)
+    document.write(array1) // Output: a,c
+
+    document.write('<br>')
+
+    // Array Example 2
+    var array2 = [1, 2, 3, 4, 5]
+
+    var removedItems = array2.splice(2, 2)
+    document.write(array2) // Output: 1,2,5
+    document.write('<br>')
+    document.write(removedItems) // Output: 3,4
+    document.write('<br>')
+    
+    array2.splice(2, 0, 6, 7)
+    document.write(array2) // Output: 1,2,6,7,5
+    </script>
+    
+</body>
+</html>
