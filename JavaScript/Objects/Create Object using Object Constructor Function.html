@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Create object using object constructor function -->
+
+<head>
+    <title>Create Object using Object Constructor Function</title>
+</head>
+
+<body>
+
+<script>
+    function Car(type, model, color)
+    {
+        this.type = type;
+        this.model = model;
+        this.color = color;
+    }
+    const myCar = new Car("SUV", "7", "Black")
+    const anotherCar = new Car("Sedan", "3", "White")
+
+    console.log(myCar);
+    console.log(anotherCar);
+</script>
+
+</body>
+
+</html>
